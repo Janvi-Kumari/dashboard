@@ -8,6 +8,7 @@
 .boardcontainer {
     background-color: #fff;
     display: flex;
+    font-family: 'Inter', sans-serif;
 }
 
 .sidebar {
@@ -51,10 +52,12 @@
 
 }
 
+
 .ictext {
     flex: 1;
     margin-left: 10px;
 }
+
 
 .mainmenu {
     margin-top: auto;
@@ -125,7 +128,6 @@
     margin-left: 32px;
     margin-top: 28px;
     font-size: 34px;
-    line-height: 42px;
     font-family: 'Inter', sans-serif;
     font-weight: bolder;
 }
@@ -164,7 +166,7 @@
 
 .filterlogo {
     display: flex;
-    margin-left: 880px;
+    margin-left: auto;
 }
 
 .filter {
@@ -178,12 +180,16 @@
 
 .cardview {
     margin-top: -30px;
-    margin-left: 22px;
+    margin-left: 20px;
+    margin-right: 35px;
 }
 
 .line {
-    border: 1px solid #BABEC3;
+    border-top: 1px solid #babec3;
+    border-bottom: 1px solid #babec3;
     order: 1;
     margin-top: 16px;
     margin-left: 32px;
+    margin-right: 32px;
+
 }
