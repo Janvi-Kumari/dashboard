@@ -185,9 +185,7 @@
 }
 
 .line {
-    border-top: 1px solid #babec3;
-    border-bottom: 1px solid #babec3;
-    order: 1;
+    border-top: 1px solid #BABEC3;
     margin-top: 16px;
     margin-left: 32px;
     margin-right: 32px;
